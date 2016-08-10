@@ -12,3 +12,5 @@ Animate CSS,
 Angular JS version 1.5.8,
 Font Awesome Framework
 
+NOTE: This boilerplate requires installation of WP REST V2
+
