@@ -1,5 +1,11 @@
 <div class="row ">
     <article class="small-12 medium-12 large-6 columns">
-         
+        <header>
+        <!-- Post Loop -->
+            <h1>{{post.title.rendered}}</h1>
+            <em>{{post.date | date}}</em>
+        </header>
+        <p>{{post.excerpt.rendered}}</p>
+        <a href="{{post.id}}"><button>READ POST</button></a>
     </article>
 </div>
